@@ -1,0 +1,10 @@
+^C:\USERS\USER\DESKTOP\WEATHER APP FINAL\OUT\BUILD\DEFAULT\CMAKEFILES\4B9C51ED1A390F95A093217EC9456FF5\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/User/Desktop/Weather App Final" "-BC:/Users/User/Desktop/Weather App Final/out/build/default" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/User/Desktop/Weather App Final/out/build/default/WDA.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

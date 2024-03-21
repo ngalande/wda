@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\User\Desktop\Weather App Final\out\build\default\CMakeFiles\4b9c51ed1a390f95a093217ec9456ff5\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{5D51C74D-9F42-3842-BC44-FBCBF18F9DD1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,3 @@
+{
+  "dependencies": ["curl", "jsoncpp", "mongo-cxx-driver", "matplotplusplus"]
+}
